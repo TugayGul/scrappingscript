@@ -31,4 +31,5 @@ for link in filtered_links:
     data.append({'title': page_title, 'body': page_body})
 
 for item in data:
+    # save or use data however you want
     print("Uploading data:", item)
